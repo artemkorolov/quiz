@@ -1,0 +1,173 @@
+/* default styles */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img
+{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+outline: none;
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 62.5%;
+    line-height: 1;
+    background: #dcdcdc;
+    font-family: Arial, Verdana, sans-serif;
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+a,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.container {
+    height: auto;
+    max-width: 1280px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* quiz styles */
+.quiz {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quiz-progress {
+    height: 10px;
+    border-radius: 30px;
+    background-color: rgb(232, 232, 232);
+}
+
+.quiz-progress-inner {
+    height: 100%;
+    border-radius: 30px;
+    width: 70%;
+    background: rgb(18, 231, 48);
+    transition: all .3s ease-in-out;
+    background: linear-gradient(90deg, rgb(84, 94, 231) 0%, rgb(100, 157, 255) 100%);
+}
+
+.quiz-title {
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.quiz-list-item {
+    border:1px solid #5856e3;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    min-height: 44px;
+    font-size: 16px;
+    transition: all .2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.quiz-list-item:hover {
+    background: #54a8f2a3;
+}
+
+.quiz-btn-next {
+    background: #FCA82F;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+
+}
+
+.quiz-footer {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-score {
+    font-size: 16px;
+    font-weight: 700;
+}
