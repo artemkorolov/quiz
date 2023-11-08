@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="quiz">
+            <div class="quiz-header">
+                <h1>Take the Html knowledge quiz</h1>
+                <img src="./img/quiz.png" alt="">
+            </div>
+            <div class="quiz-progress">
+                <div class="quiz-progress-inner"></div>
+            </div>
+            <div class="quiz-content">
+                <h2 class="quiz-title">Question 1</h2>
+                <ul class="quiz-list">
+                    <li class="quiz-list-item">Answer1</li>
+                    <li class="quiz-list-item">Answer2</li>
+                    <li class="quiz-list-item">Answer3</li>
+                    <li class="quiz-list-item">Answer4</li>
+                </ul>
+            </div>
+            <div class="quiz-footer">
+                <div class="quiz-score">
+                    1 / 5
+                </div>
+                <button class="quiz-btn-next">Next</button>
+            </div>
+        </div>
+
+        <div class="finish hidden">
+            <div class="finish-img">
+                <img src="./img/quiz.png" alt="the end">
+            </div>
+            <div class="finish-title">Finish test</div>
+            <div class="finish-text"></div>
+            <div class="finish-btn">
+                <a href="" class="restart-quiz">Start quiz</a>
+            </div>
+        </div>
+    </div>
+    <script src="./questions.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
