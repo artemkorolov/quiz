@@ -1,52 +1,52 @@
-const cuestions = [
+const questions = [
     {
-        question: "Question 1",
-        answer: "Answer 1",
+        question: "Як розшифровується абревіатура HTML?",
+        answer: "Hyper Text Markup Language",
         options: [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Option 4",
+            "Hyper Text Modul Language",
+            "Hyper Text Markup Language",
+            "Hyper Test Markup Language",
+            "Hyperlink Markup Language"
         ]    
     },
     {
-        question: "Question 2",
-        answer: "Answer 2",
+        question: "Де правильно використовувати тег title?",
+        answer: "У тегу head",
         options: [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Option 4",
+            "У тегу head",
+            "У тегу body",
+            "У тегу footer",
+            "У тегу img"
         ]    
     },
     {
-        question: "Question 3",
-        answer: "Answer 3",
+        question: "Тег, в якому лежить основний вміст сторінки?",
+        answer: "body",
         options: [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Option 4",
+            "head",
+            "title",
+            "body",
+            "footer"
         ]    
     },
     {
-        question: "Question 4",
-        answer: "Answer 4",
+        question: "Який тег використовується для виведення зображення?",
+        answer: "img",
         options: [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Option 4",
+            "images",
+            "img",
+            "image",
+            "a"
         ]    
     },
     {
-        question: "Question 5",
-        answer: "Answer 5",
+        question: "Яке значення атрибуту type вказується для поля-галочки у формі",
+        answer: "checkbox",
         options: [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Option 4",
+            "radio",
+            "checkbox",
+            "id",
+            "name"
         ]    
     }
 ]
